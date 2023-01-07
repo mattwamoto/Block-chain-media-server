@@ -26,9 +26,7 @@ Our [quickstart guide](https://lbry.tech/playground) provides a simple walkthrou
 With the daemon running, `lbrynet commands` will show you a list of commands.
 
 The full API is documented [here](https://lbry.tech/api/sdk).
-
 ## Running from source
-
 Installing from source is also relatively painless. Full instructions are in [INSTALL.md](INSTALL.md)
 
 ## Contributing
@@ -45,7 +43,7 @@ We take security seriously. Please contact security@lbry.com regarding any secur
 
 ## Contact
 
-The primary contact for this project is [@eukreign](mailto:lex@lbry.com).
+The primary contact for this project is [@mattwamoto](mailto:wamoto@oortcloud.digital).
 
 ## Additional information and links
 
