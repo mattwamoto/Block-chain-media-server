@@ -1,8 +1,8 @@
-# <img src="https://raw.githubusercontent.com/lbryio/lbry-sdk/master/lbry.png" alt="LBRY" width="48" height="36" /> LBRY SDK [![build](https://github.com/lbryio/lbry-sdk/actions/workflows/main.yml/badge.svg)](https://github.com/lbryio/lbry-sdk/actions/workflows/main.yml) [![coverage](https://coveralls.io/repos/github/lbryio/lbry-sdk/badge.svg)](https://coveralls.io/github/lbryio/lbry-sdk)
+# <img src="https://raw.githubusercontent.com/lbryio/lbry-sdk/master/lbry.png" alt="LBRY" width="48" height="36" /> Nafsi server SDK [![build](https://github.com/lbryio/lbry-sdk/actions/workflows/main.yml/badge.svg)](https://github.com/lbryio/lbry-sdk/actions/workflows/main.yml) [![coverage](https://coveralls.io/repos/github/lbryio/lbry-sdk/badge.svg)](https://coveralls.io/github/lbryio/lbry-sdk)
 
-LBRY is a decentralized peer-to-peer protocol for publishing and accessing digital content. It utilizes the [LBRY blockchain](https://github.com/lbryio/lbrycrd) as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, rights and access rules. LBRY also provides a data network that consists of peers (seeders) uploading and downloading data from other peers, possibly in exchange for payments, as well as a distributed hash table used by peers to discover other peers.
+Nafsi is a decentralized peer-to-peer protocol for publishing and accessing digital content. It utilizes the [LBRY blockchain](https://github.com/lbryio/lbrycrd) as a global namespace and database of digital content. Blockchain entries contain searchable content metadata, identities, rights and access rules. LBRY also provides a data network that consists of peers (seeders) uploading and downloading data from other peers, possibly in exchange for payments, as well as a distributed hash table used by peers to discover other peers.
 
-LBRY SDK for Python is currently the most fully featured implementation of the LBRY Network protocols and includes many useful components and tools for building decentralized applications. Primary features and components include:
+Nafsi SDK for Python is is forked from LBRY and is a fully featured implementation of the LBRY Network protocols and includes many useful components and tools for building decentralized applications. Primary features and components include:
 
  * Built on Python 3.7 and `asyncio`.
  * Kademlia DHT (Distributed Hash Table) implementation for finding peers to download from and announcing to peers what we have to host ([lbry.dht](https://github.com/lbryio/lbry-sdk/tree/master/lbry/dht)).
@@ -13,7 +13,7 @@ LBRY SDK for Python is currently the most fully featured implementation of the L
 
 ## Installation
 
-Our [releases page](https://github.com/lbryio/lbry-sdk/releases) contains pre-built binaries of the latest release, pre-releases, and past releases for macOS, Debian-based Linux, and Windows. [Automated travis builds](http://build.lbry.io/daemon/) are also available for testing.
+Our [releases page](https://github.com/nafsi/lbry-sdk/releases) contains pre-built binaries of the latest release, pre-releases, and past releases for macOS, Debian-based Linux, and Windows. [Automated travis builds](http://build.lbry.io/daemon/) are also available for testing.
 
 ## Usage
 
@@ -33,7 +33,7 @@ Installing from source is also relatively painless. Full instructions are in [IN
 
 ## Contributing
 
-Contributions to this project are welcome, encouraged, and compensated. For more details, please check [this](https://lbry.tech/contribute) link.
+Contributions to this project are welcome, encouraged, and compensated. For more details, please check [this](https://nafsi.oortcloud.digital/contribute) link.
 
 ## License
 
